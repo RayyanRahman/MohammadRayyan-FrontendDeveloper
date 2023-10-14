@@ -1,6 +1,6 @@
 import React from "react";
 
-import "../Styles/Banner.css"; // Make sure to create the CSS file
+import "../Styles/Banner.css";
 
 const Banner = () => {
   const createFirework = (e) => {
@@ -25,12 +25,6 @@ const Banner = () => {
           explorations, join us on a journey through the cosmos.
         </p>
       </div>
-      {/* <div className="banner-image">
-        <img
-          src="https://st2.depositphotos.com/1011081/8699/i/600/depositphotos_86997876-stock-photo-high-resolution-image-of-space.jpg"
-          alt="Space Capsules"
-        />
-      </div> */}
     </div>
   );
 };

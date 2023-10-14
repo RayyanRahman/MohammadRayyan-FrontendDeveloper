@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import NavBar from "./components/NavBar";
 import Banner from "./components/Banner";
 import SearchFilter from "./components/SearchFilter";
+import ContentDisplay from "./components/ContentDisplay";
 
 function App() {
   const [data, setData] = useState([]);
@@ -36,6 +37,7 @@ function App() {
       <NavBar />
       <Banner />
       <SearchFilter onSearch={handleFilterChange} />
+      <ContentDisplay data={filteredData} />
     </div>
   );
 }
